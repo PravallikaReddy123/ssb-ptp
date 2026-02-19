@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../../components/ui/SectionHeader';
-
+import chairman from "../../assets/chairman.png";
 export default function AboutOverview() {
   const teamMembers = [
     {
@@ -255,7 +255,7 @@ export default function AboutOverview() {
                     border: '1px solid var(--border-light)'
                   }}>
                     <img 
-                      src="../src/assets/chairman.png"
+                      src={chairman}
                       alt="Dr. Vijay Baskar Reddy - Chairman"
                       style={{
                         width: '220px',

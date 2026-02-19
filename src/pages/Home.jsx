@@ -16,7 +16,8 @@ import logoAmazon from "../assets/companylogos/amazon.png";
 import logoYesBank from "../assets/companylogos/yes bank.png";
 import logoGenpact from "../assets/companylogos/800px-Genpact_logo.svg.png";
 import logoMphasis from "../assets/companylogos/mphasis-logo (1).png";
-
+import test1 from "../assets/test1.png";
+import test2 from "../assets/test2.png";
 /**
  * SSB — Sanskrithi School of Business
  * Home Page (single-file, drop-in)
@@ -209,13 +210,13 @@ export default function Home() {
               quote="SSB's industry-focused curriculum and practical exposure prepared me for the consulting world. The mentorship and live projects made all the difference."
               name="H ASMA BANU"
               role="HR Executive, Tech Mahindra, 2022-2024"
-              img="../src/assets/test1.png"
+              img={test1}
             />
             <Testimonial
               quote="The analytical thinking and business fundamentals from SSB helped me excel in e-commerce. Strong foundation for a career in analytics and operations."
               name="BABA FAKRUDDIEN N"
               role="Developer, TCS, 2020-2022"
-              img="../src/assets/test2.png"
+              img={test2}
             />
           </div>
         </div>

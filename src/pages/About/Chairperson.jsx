@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../../components/ui/SectionHeader';
-
+import chairman from "../../assets/chairman.png";
 export default function AboutChairperson() {
   return (
     <div className="main-content">
@@ -27,7 +27,7 @@ export default function AboutChairperson() {
                     border: '1px solid var(--border-light)'
                   }} className="p-4 sm:p-6 md:p-8 rounded-xl">
                     <img 
-                      src="../src/assets/chairman.png"
+                      src={chairman}
                       alt="Dr. Vijay Baskar Reddy - Chairperson"
                       className="w-40 h-40 sm:w-52 sm:h-52 md:w-[220px] md:h-[220px] rounded-full object-cover mx-auto mb-6 block border-4 border-[var(--brand)]"
                     />

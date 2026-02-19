@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeader from '../../components/ui/SectionHeader';
-
+import dean from "../../assets/dean.jpeg";
 // --- Complete Data Objects ---
 const governingBody = [
   { name: "Mr. Vijay Bhaskar Reddy", affiliation: "Chairperson", designation: "Chairperson" },
@@ -140,7 +140,7 @@ export default function GoverningBody() {
         lineHeight: 0 // Prevents extra ghost space at bottom of image
       }}>
         <img
-          src="../src/assets/dean.jpeg"
+          src={dean}
           alt="Dr. M. Balakoteswari"
           className="w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-lg object-cover block"
         />
