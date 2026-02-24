@@ -234,7 +234,7 @@ export default function Home() {
             />
             <Facility
               title="Technology Labs"
-              img="/src/assets/lab.jpeg"
+              img="src/assets/lab.jpeg"
               points={["Analytics suites", "AI sandbox", "Prototyping"]}
             />
             <Facility
