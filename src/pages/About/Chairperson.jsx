@@ -32,7 +32,7 @@ export default function AboutChairperson() {
                       className="w-40 h-40 sm:w-52 sm:h-52 md:w-[220px] md:h-[220px] rounded-full object-cover mx-auto mb-6 block border-4 border-[var(--brand)]"
                     />
                     <h3 style={{ marginBottom: '0.5rem', color: 'var(--brand)', fontSize: '1.4em' }}>
-                      B. Vijay Baskar Reddy
+                      B. Vijay Bhaskar Reddy
                     </h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', color: 'var(-accent)' }}>
                       Chairperson & Founder
