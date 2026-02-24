@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import SectionHeader from '../../components/ui/SectionHeader';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import Img1 from '../../assets/uba.jpeg';
+import Img2 from '../../assets/ebsb.jpeg';
+import Img3 from '../../assets/viksit.jpeg';
+import Img4 from '../../assets/green.webp';
+import Img5 from '../../assets/nss.jpg'; 
 
 const programSections = [
   {
@@ -20,29 +25,17 @@ const programSections = [
           <span><strong className="text-[var(--brand)]">5</strong> Adopted Villages</span>
           <span><strong className="text-[var(--brand)]">5000+</strong> Lives Impacted</span>
         </div>
+       <div className="mb-6">
+        <img
+          src={Img5}
+          alt="nss"
+          className="w-full pt-4 h-80 object-cover rounded-2xl shadow-lg"
+        />
+      </div>
       </>
     )
   },
-  {
-    id: 'ncc',
-    title: 'National Cadet Corps (NCC)',
-    subtitle: 'Unity and Discipline',
-    desc: 'Building disciplined citizens through military training and character development',
-    content: (
-      <>
-        <p className="mb-4">The NCC aims to develop character, comradeship, discipline, and ideals of selfless service among young citizens. Our NCC unit promotes these values through various training programs.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4">
-          <div className="card"><h4 className="font-semibold mb-2">Training</h4><p className="text-sm">Drill and Discipline, Map Reading & Navigation, First Aid, Adventure Sports</p></div>
-          <div className="card"><h4 className="font-semibold mb-2">Activities</h4><p className="text-sm">Annual Training Camps, Republic Day & Independence Day Parades, Community Service, Leadership Development</p></div>
-        </div>
-        <div className="flex gap-4 sm:gap-6 flex-wrap text-sm">
-          <span><strong className="text-[var(--brand)]">150+</strong> Active Cadets</span>
-          <span><strong className="text-[var(--brand)]">25+</strong> Certified Officers</span>
-        </div>
-      </>
-    )
-   
-  },
+  
   {
     id: 'green',
     title: 'Green Club',
@@ -60,6 +53,14 @@ const programSections = [
           <span><strong className="text-green-600">80%</strong> Waste Recycled</span>
           <span><strong className="text-green-600">100+</strong> Active Members</span>
         </div>
+
+         <div className="mb-6">
+        <img
+          src={Img4}
+          alt="UnnaBharat Green Club"
+          className="w-full pt-4 h-80 object-cover rounded-2xl shadow-lg"
+        />
+      </div>
       </>
     )
   },
@@ -70,7 +71,7 @@ const programSections = [
     desc: 'Connecting higher education with rural communities for development',
     content: (
       <>
-        <p className="mb-4">UBA is a flagship program of the Ministry of Education aiming to leverage knowledge and resources for sustainable development in rural communities.</p>
+      <p className="mb-4">UBA is a flagship program of the Ministry of Education aiming to leverage knowledge and resources for sustainable development in rural communities.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-4">
           <div className="card"><h4 className="font-semibold mb-2">Adopted Villages</h4><p className="text-sm">Bukkapatnam, Kothacheruvu, Kalyanadurgam, Mudigubba, Chintalapalli</p></div>
           <div className="card"><h4 className="font-semibold mb-2">Key Interventions</h4><p className="text-sm">Agricultural Technology, Water Management, Digital Literacy, Health & Hygiene, Skill Development</p></div>
@@ -80,9 +81,15 @@ const programSections = [
           <span><strong className="text-[var(--brand)]">12,000+</strong> Beneficiaries</span>
           <span><strong className="text-[var(--brand)]">150+</strong> Student Volunteers</span>
         </div>
+         <div className="mb-6">
+        <img
+          src={Img1}
+          alt="Unnat Bharat Abhiyaan"
+          className="w-full pt-4 h-80 object-cover rounded-2xl shadow-lg"
+        />
+      </div>
       </>
-    )
-  },
+      )},
   {
     id: 'ebsb',
     title: 'Ek Bharat Shreshtha Bharat',
@@ -95,6 +102,14 @@ const programSections = [
           <div className="card"><h4 className="font-semibold mb-2">State Pairing</h4><p className="text-sm">Andhra Pradesh ↔ Himachal Pradesh — Cultural exchange between paired states</p></div>
           <div className="card"><h4 className="font-semibold mb-2">Activities</h4><p className="text-sm">Cultural Exchange Programs, Language Learning Initiative, Cultural Festivals, Youth Engagement</p></div>
         </div>
+
+         <div className="mb-6">
+        <img
+          src={Img2}
+          alt="Ek Bharat Shreshtha Bharat"
+          className="w-full pt-4 h-80 object-cover rounded-2xl "
+        />
+      </div>
       </>
     )
   },
@@ -110,6 +125,14 @@ const programSections = [
           <div className="card"><h4 className="font-semibold mb-2">Focus Areas</h4><p className="text-sm">Economic Development, Technological Advancement, Social Progress, Environmental Sustainability</p></div>
           <div className="card"><h4 className="font-semibold mb-2">Key Initiatives</h4><p className="text-sm">Digital India & Technology, Innovation & Entrepreneurship, Skill Development, Clean Energy, Rural Development</p></div>
         </div>
+
+         <div className="mb-6">
+        <img
+          src={Img3}
+          alt="Viksit Bharat @2047"
+          className="w-full pt-4 h-80 object-cover rounded-2xl shadow-lg"
+        />
+      </div>
       </>
     )
   }
