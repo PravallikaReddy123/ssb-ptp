@@ -28,11 +28,11 @@ export default function AboutChairperson() {
                   }} className="p-4 sm:p-6 md:p-8 rounded-xl">
                     <img 
                       src={chairman}
-                      alt="Dr. Vijay Baskar Reddy - Chairperson"
+                      alt="B. Vijay Bhaskar Reddy - Chairperson"
                       className="w-40 h-40 sm:w-52 sm:h-52 md:w-[220px] md:h-[220px] rounded-full object-cover mx-auto mb-6 block border-4 border-[var(--brand)]"
                     />
                     <h3 style={{ marginBottom: '0.5rem', color: 'var(--brand)', fontSize: '1.4em' }}>
-                      Dr. Vijay Baskar Reddy
+                      B. Vijay Baskar Reddy
                     </h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', color: 'var(-accent)' }}>
                       Chairperson & Founder
@@ -163,7 +163,7 @@ export default function AboutChairperson() {
                     color: 'var(--brand)'
                   }} className="pt-4 sm:pt-6 text-base sm:text-lg md:text-xl">
                     Warm Regards,<br/>
-                    <span style={{ fontSize: '1.1em' }}>Dr. Vijay Baskar Reddy</span><br/>
+                    <span style={{ fontSize: '1.1em' }}>B. Vijay Bhaskar Reddy</span><br/>
                     <span style={{ fontSize: '0.9em', color: 'var(--text-soft)' }}>Chairperson & Founder</span>
                   </div>
                 </div>

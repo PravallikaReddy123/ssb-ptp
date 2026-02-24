@@ -256,7 +256,7 @@ export default function AboutOverview() {
                   }}>
                     <img 
                       src={chairman}
-                      alt="Dr. Vijay Baskar Reddy - Chairman"
+                      alt="B. Vijay Bhaskar Reddy - Chairman"
                       style={{
                         width: '220px',
                         height: '220px',
@@ -267,7 +267,7 @@ export default function AboutOverview() {
                         border: '4px solid var(--brand)'
                       }}
                     />
-                    <h3 style={{ marginBottom: '0.5rem', color: 'var(--brand)', fontSize: '1.4em' }}>Dr. Vijay Baskar Reddy</h3>
+                    <h3 style={{ marginBottom: '0.5rem', color: 'var(--brand)', fontSize: '1.4em' }}>B. Vijay Bhaskar Reddy</h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '0.5rem', color: 'var(--accent)' }}>Chairman & Founder</p>
                     <p style={{ fontSize: '0.9em', color: 'var(--text-muted)', lineHeight: '1.4' }}>
                       Ph.D IIM Ahmedabad<br/>
@@ -369,7 +369,7 @@ export default function AboutOverview() {
                     fontWeight: 'bold',
                     color: 'var(--brand)'
                   }}>
-                    - Dr. Vijay Baskar Reddy
+                    - B. Vijay Bhaskar Reddy
                   </div>
                 </div>
               </div>
