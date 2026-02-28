@@ -6,6 +6,7 @@ export default function Committees() {
   const committees = [
     { name: 'IQAC', desc: 'Internal Quality Assurance Cell', href: '/committees/iqac' },
     { name: 'Anti Ragging', desc: 'Anti-ragging measures and reporting', href: '/committees/anti-ragging' },
+    {name:'Anti Sexual Harassment', desc:'Anti Sexual Harassment measures and report',   href:'/committees/anti-sexual-harassment'},
     { name: 'All Other Committees', desc: 'Grievance Redressal, NPTEL, Academic, IIC, R&D, Women Empowerment, and more', href: '/committees/all-committees' }
   ];
 

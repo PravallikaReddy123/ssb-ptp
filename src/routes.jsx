@@ -86,6 +86,7 @@ const IIC = lazy(() => import('./pages/Committees/IIC.jsx'));
 const RnDCell = lazy(() => import('./pages/Committees/RnDCell.jsx'));
 const WomenEmpowerment = lazy(() => import('./pages/Committees/WomenEmpowerment.jsx'));
 const InternalComplaint = lazy(() => import('./pages/Committees/InternalComplaint.jsx'));
+const AntiSexualHarassment = lazy(() => import('./pages/Committees/AntiSexualHarassment.jsx'));
 const LibraryCommittee = lazy(() => import('./pages/Committees/Library.jsx'));
 const StudentWelfare = lazy(() => import('./pages/Committees/StudentWelfare.jsx'));
 const ExtraCurricular = lazy(() => import('./pages/Committees/ExtraCurricular.jsx'));
@@ -192,6 +193,7 @@ export default [
   { path: '/committees/rnd-cell', element: createElement(RnDCell) },
   { path: '/committees/women-empowerment', element: createElement(WomenEmpowerment) },
   { path: '/committees/internal-complaint', element: createElement(InternalComplaint) },
+  { path: '/committees/anti-sexual-harassment', element: createElement(AntiSexualHarassment) },
   { path: '/committees/library', element: createElement(LibraryCommittee) },
   { path: '/committees/student-welfare', element: createElement(StudentWelfare) },
   { path: '/committees/extra-curricular', element: createElement(ExtraCurricular) },

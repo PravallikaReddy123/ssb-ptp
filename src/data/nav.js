@@ -245,6 +245,11 @@ export const NAV = [
         label: 'All Other Committees', 
         href: '/committees/all-committees',
         description: 'Grievance Redressal, NPTEL, Academic, IIC, R&D, Women Empowerment, and more'
+      },
+      {
+        label:"Anti Sexual Harassment",
+        href:'/committees/anti-sexual-harassment',
+        description:" Anti-Sexual Harassment measures and reporting"
       }
     ]
   },
