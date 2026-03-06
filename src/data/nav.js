@@ -261,11 +261,6 @@ export const NAV = [
         href: '/committees/grievance-redressal',
         description: 'Student grievance handling and resolution'
       },
-      // {
-      //   label: 'NPTEL',
-      //   href: '/committees/nptel',
-      //   description: 'NPTEL local chapter activities and support'
-      // },
       {
         label: 'Academic Committee',
         href: '/committees/academic',
